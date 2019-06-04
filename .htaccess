@@ -7,7 +7,7 @@ Allow from 127.
 Allow from localhost
 
 ## This is to allow access from other machines on Virtual Box host-only networks.
-Allow from 192.168.0.0/16
+Allow from 192.168.2.0/24
 
 ## The following section disables PHP magic quoting feature.
 ## Turning these on will cause issues with Mutillidae.
